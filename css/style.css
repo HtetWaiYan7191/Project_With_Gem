@@ -7,12 +7,26 @@
 
 nav{
     background-color: red;
-    height: 80px;
+    height: 50px;
     color: white;
+    position: fixed;
     
 }
 
 nav li:hover{
     background-color: rgb(90, 78, 138);
     cursor: pointer;
+}
+
+.project-section{
+    height: 500px;
+}
+
+#welcome-section{
+    text-align:center;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+    
 }
